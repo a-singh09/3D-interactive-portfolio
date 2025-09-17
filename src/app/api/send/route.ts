@@ -3,7 +3,13 @@ import { config } from "@/data/config";
 import { Resend } from "resend";
 import { z } from "zod";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Check if API key exists and is valid
+const apiKey = process.env.RESEND_API_KEY;
+if (!apiKey || apiKey === 're_placeholder_key_replace_with_actual_key') {
+  console.warn('Resend API key not configured properly. Email functionality will be disabled.');
+}
+
+const resend = apiKey && apiKey !== 're_placeholder_key_replace_with_actual_key' ? new Resend(apiKey) : null;
 
 const Email = z.object({
   fullName: z.string().min(2, "Full name is invalid!"),
@@ -12,6 +18,11 @@ const Email = z.object({
 });
 export async function POST(req: Request) {
   try {
+    // Check if Resend is configured
+    if (!resend) {
+      return Response.json({ error: 'Email service not configured. Please contact directly.' }, { status: 503 });
+    }
+
     const body = await req.json();
     console.log(body);
     const {

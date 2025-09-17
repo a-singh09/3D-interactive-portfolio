@@ -1,10 +1,10 @@
-![Portfolio Preview](https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/public/assets/seo/og-image.png?raw=true)
+![Portfolio Preview](https://github.com/anshdeep/3D-interactive-portfolio/blob/main/public/assets/seo/og-image.png?raw=true)
 
-# 🚀 My Portfolio Website
+# 🚀 Anshdeep Singh - Blockchain Developer Portfolio
 
-Welcome to the repository for my personal portfolio website! 🎉 This project is a culmination of creativity, technology, and my dedication to showcasing my skills, projects, and personality in a visually stunning and interactive manner.
+Welcome to my personal portfolio website! 🎉 This project showcases my expertise in blockchain development, full-stack engineering, and Web3 technologies through an immersive 3D interactive experience.
 
-### Live preview: https://www.abhijitzende.com/
+### Live preview: https://anshdeep.dev
 
 ![Preview](https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/public/assets/preview_video.gif?raw=true)
 
@@ -16,14 +16,14 @@ This project is **inspired** by the amazing work of [Naresh Khatri](https://gith
 
 Here are the key highlights of my portfolio:
 
-### 🎹 **3D Interactive Animations**
-- Features a custom-made interactive keyboard built with **Spline**.
-- Each keycap represents a skill and reveals titles and descriptions on hover for an immersive experience.
-- Smooth, responsive 3D interactions that captivate visitors.
+### 🎹 **3D Interactive Blockchain Experience**
+- Features a custom-made interactive keyboard built with **Spline** showcasing blockchain and Web3 skills.
+- Each keycap represents technologies like Solidity, Hardhat, Foundry, Wagmi, and Web3.js with hover interactions.
+- Immersive 3D environment perfect for demonstrating technical expertise.
 
-### ✨ **Slick Interactions & Animations**
-- Powered by **GSAP** and **Framer Motion**, delivering buttery-smooth animations on scroll, hover, and element reveals.
-- Creative motion designs that enhance storytelling and keep users engaged.
+### ✨ **Advanced Animations & Interactions**
+- Powered by **GSAP** and **Framer Motion** for seamless blockchain project showcases.
+- Smooth transitions between DeFi projects, smart contract demos, and full-stack applications.
 
 ### 🌌 **Space-Themed Design**
 - Particles floating on a dark, cosmic background simulate an outer-space vibe.
@@ -41,15 +41,17 @@ Here are the key highlights of my portfolio:
 
 The portfolio website is built using the following tools and technologies:
 
-- **Frontend:** Next.js, React, Tailwind CSS, Shadcn, Aceternity UI
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS, Shadcn, Aceternity UI
+- **Blockchain:** Solidity, Hardhat, Foundry, Wagmi, Viem, Ethers.js, Web3.js
+- **Backend:** Node.js, Python, FastAPI, PostgreSQL, MongoDB, Prisma
 - **Animations:** GSAP, Framer Motion, Spline Runtime
-- **Other Tools:** Resend, Socket.io, Zod
+- **Other Tools:** Docker, AWS, Resend, Socket.io, Zod
 
 ## 🌟 Getting Started
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Abhiz2411/3D-interactive-portfolio.git
+   git clone https://github.com/anshdeep/3D-interactive-portfolio.git
    ```
 
 2. Navigate to the project directory:
@@ -83,7 +85,7 @@ The portfolio website is built using the following tools and technologies:
 
 ## 🚀 Deployment
 
-This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here](https://www.abhijitzende.com/).
+This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here](https://anshdeep.dev).
 
 ### Setting up Resend API on Vercel
 
@@ -103,10 +105,12 @@ A huge shoutout to [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio) f
 
 ## 📬 Contact
 
-Feel free to reach out to me for collaboration, feedback, or just to say hi! 😊
+Feel free to reach out to me for collaboration, blockchain projects, or just to connect! 😊
 
-- **Email:** abhijitzende75@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/zende-abhijit/)
+- **Email:** anshdeepsingh9@gmail.com
+- **LinkedIn:** [Anshdeep Singh](https://linkedin.com/in/anshdeep-singh)
+- **GitHub:** [anshdeep](https://github.com/anshdeep)
+- **Portfolio:** [anshdeep.dev](https://anshdeep.dev)
 
 ---
 
