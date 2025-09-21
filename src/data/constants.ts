@@ -17,6 +17,8 @@ export enum SkillNames {
   OPENZEPPELIN = "openzeppelin",
   POLYGON = "polygon",
   ARBITRUM = "arbitrum",
+  WEBSOCKETS = "websockets",
+  DERIVEAPI = "deriveapi",
   // Frontend
   HTML = "html",
   CSS = "css",
@@ -38,7 +40,10 @@ export enum SkillNames {
   SCIKITLEARN = "scikitlearn",
   OPENAI = "openai",
   LANGCHAIN = "langchain",
+  LLM = "llm",
   HUGGINGFACE = "huggingface",
+  GEMINI = "gemini",
+  LLMBASED = "llmbased",
   // Database
   POSTGRES = "postgres",
   MONGODB = "mongodb",
@@ -213,6 +218,14 @@ export const SKILLS: Record<SkillNames, Skill> = {
     color: "#1C3A5C",
     icon: "https://python.langchain.com/img/favicon.ico",
   },
+  [SkillNames.LLM]: {
+    id: 47,
+    name: "llm",
+    label: "LLM",
+    shortDescription: "Large Language Models for advanced AI applications! 🧠✨",
+    color: "#3498DB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+  },
   [SkillNames.HUGGINGFACE]: {
     id: 38,
     name: "huggingface",
@@ -220,6 +233,22 @@ export const SKILLS: Record<SkillNames, Skill> = {
     shortDescription: "Open source AI models with all the hugs! 🤗🚀",
     color: "#FFD21E",
     icon: "https://huggingface.co/favicon.ico",
+  },
+  [SkillNames.GEMINI]: {
+    id: 45,
+    name: "gemini",
+    label: "Gemini API",
+    shortDescription: "Google's AI model for intelligent applications! 💎🤖",
+    color: "#8E44AD",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gemini_icon.svg",
+  },
+  [SkillNames.LLMBASED]: {
+    id: 46,
+    name: "llmbased",
+    label: "LLM-Based Intelligence",
+    shortDescription: "Large Language Models for advanced AI applications! 🧠✨",
+    color: "#3498DB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
   },
   
   // Database Skills
@@ -376,6 +405,22 @@ export const SKILLS: Record<SkillNames, Skill> = {
     shortDescription: "Layer 2 scaling that's arbitrarily awesome! 🚀⚡",
     color: "#28A0F0",
     icon: "https://arbitrum.io/favicon.ico",
+  },
+  [SkillNames.WEBSOCKETS]: {
+    id: 43,
+    name: "websockets",
+    label: "WebSockets",
+    shortDescription: "Real-time communication protocol for live data! 🔄⚡",
+    color: "#000000",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/websocket/websocket-original.svg",
+  },
+  [SkillNames.DERIVEAPI]: {
+    id: 44,
+    name: "deriveapi",
+    label: "Derive API",
+    shortDescription: "DeFi trading API for executing decentralized trades! 📈💱",
+    color: "#0052FF",
+    icon: "https://derive.finance/favicon.ico",
   },
   
   // DevOps & Tools
